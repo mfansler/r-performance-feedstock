@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/performance_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/performance/performance_{{ version }}.tar.gz
-  sha256: 37159546817d622b96a4f61f6fd9bd9abe2335b965cf7f59db0d9d5031ae92dd
+  sha256: bf8d184af38e35cc7d39bcdff4117866b527a08bf314ab8e67d92eee0b2ac484
 
 build:
   merge_build_host: True  # [win]

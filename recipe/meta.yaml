@@ -25,12 +25,12 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - r-bayestestr >=0.2.2
-    - r-insight >=0.4.1
+    - r-bayestestr >=0.5.0
+    - r-insight >=0.8.1
   run:
     - r-base
-    - r-bayestestr >=0.2.2
-    - r-insight >=0.4.1
+    - r-bayestestr >=0.5.0
+    - r-insight >=0.8.1
 
 test:
   commands:
@@ -39,11 +39,12 @@ test:
 
 about:
   home: https://easystats.github.io/performance/
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Utilities for computing measures to assess model quality, which are not directly provided by R's 'base' or 'stats' packages. These  include e.g. measures like r-squared, intraclass correlation coefficient (Nakagawa, Johnson & Schielzeth (2017) <doi:10.1098/rsif.2017.0213>),  root mean squared error or functions
     to check models for overdispersion,  singularity or zero-inflation and more. Functions apply to a large variety of regression models, including generalized linear models, mixed effects models and Bayesian models.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:

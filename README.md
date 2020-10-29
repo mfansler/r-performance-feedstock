@@ -5,11 +5,9 @@ Home: https://easystats.github.io/performance/
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-performance-feedstock/blob/master/LICENSE.txt)
 
 Summary: Utilities for computing measures to assess model quality, which are not directly provided by R's 'base' or 'stats' packages. These  include e.g. measures like r-squared, intraclass correlation coefficient (Nakagawa, Johnson & Schielzeth (2017) <doi:10.1098/rsif.2017.0213>),  root mean squared error or functions to check models for overdispersion,  singularity or zero-inflation and more. Functions apply to a large variety of regression models, including generalized linear models, mixed effects models and Bayesian models.
-
-
 
 Current build status
 ====================
